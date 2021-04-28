@@ -1,0 +1,36 @@
+.header-comp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #a03737;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.header-comp {
+    display: flex;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    align-items: center;
+    background-color: #912121;
+    color: white;
+    h1 {
+        font-size: 1em;
+        flex-grow: 8;
+        text-align: center;        
+        font-family: 'Segoe UI', 'Verdana', sans-serif;
+    }
+    
+
+    .menu-icon {
+        flex-grow: 1;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 10px 0 0;
+        cursor: pointer;
+        &:hover { 
+            opacity: 0.3;  
+        }
+    }
+}
